@@ -1,545 +1,621 @@
 <!DOCTYPE html>
-<html  lang="en">
+<html lang="en" data-theme="light">
 <head>
-    <title>Rajeev Kumar</title>
+    <title>Rajeev Kumar — Software Engineer</title>
     <meta charset="UTF-8">
-	<link rel="shortcut icon" href="./assets/images/mine1.PNG" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<script src="https://kit.fontawesome.com/de71e220d0.js" crossorigin="anonymous"></script>
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-	.portfolio-image-container img {
-	    border-radius: 10px; /* Adjust the radius as needed */
-	    object-fit: cover;
-	}
-	#my-image img {
-	    transition: transform 0.9s, box-shadow 0.9s;
-	    /* Ensures the transition effect is smooth */
-	}
-	#my-image img:hover {
-	    transform: scale(1.25);
-	    /* Slightly enlarges the image on hover */
-	    box-shadow: 0 8px 10px rgba(0, 0, 1, 1.2);
-	    /* Adds a subtle shadow around the image */
-	}
-	</style>
-	
-	</head>
-	<body>
-        <!-- Top Scroll Bar -->
-        <div id="scroll-bar"></div>
-		<header id="header">
-			<nav>
-				<div class = "dropdown-menu text-right">
-	                <div class="bars">
-	                    <i class="fas fa-bars"></i>
-	                </div>
-	                <div class ="dropdown-list navigation-menu">
-	                    <ul class = "no-list-style">
-	                        <li >
-	                            <a href="#"> Home </a>
-	                        </li>
-	                        <li>
-	                            <a href="#about"> About </a>
-	                        </li>
-	                        <li>
-	                            <a href="#skills"> Skills </a>
-	                        </li>
-	                        <li>
-	                            <a href="#experience">Experience</a>
-	                        </li>
-	                        <li>
-	                            <a href="#education">Education</a>
-	                        </li>
-	                        <li>
-	                            <a href="#projects">Projects</a>
-	                        </li>
-	                        <li>
-	                            <a href="#contact">Contact</a>
-	                        </li>
-	                    </ul>
-	                </div>
-             	</div>
-				<ul class="no-list-style horizontal-list text-center navigation-menu">
-					<li>
-						<a href="#">Home</a>
-					</li>
-					<li>
-						<a href="#about">About</a>
-					</li>
-					<li>
-						<a href="#skills">Skills</a>
-					</li>
-					<li>
-						<a href="#experience">Experience</a>
-					</li>
-					<li>
-						<a href="#education">Education</a>
-					</li>
-					<li>
-						<a href="#projects">Projects</a>
-					</li>
-					<li>
-						<a href="#contact">Contact</a>
-					</li>
-                    
-				</ul>
-			</nav>
-			<div id="name-social-container">
-				<div class="text-center">
-					<h1 id="my-name">
-					    <span style="color: red;">R</span>ajeev <span style="color: red;">K</span>umar
-					</h1>
-				</div>
-			</div>
-		<social>
-				<ul class="horizontal-list social-icon text-center">
-					<li>
-						<a href="https://www.linkedin.com/in/rajeev-kumar-nit/" target="_blank" title="Linkedin"><img src="./assets/images/linkedin.png" alt="Tamanna's Linkedin profile"></i></a>
-					</li>
-                    <li>
-						<a href="https://leetcode.com/u/rajeev01/" target="_blank" title="Leetcode"><img src="./assets/images/leetcode.jpg" alt="Rajeev's Leetcode profile"></i></a>
-					</li>
-                    <li>
-						<a href="https://twitter.com/01Rajeeb" target="_blank" title="Twitter"><img src="./assets/images/twitter.png" alt="Tamanna's Twitter profile"></i></a>
-					</li>
-					<li>
-						<a href="https://github.com/RajK01" target="_blank" title="Github"><img src="./assets/images/github.png" alt="Tamanna's Github profile"></a>
-					</li>
-					<li>
-						<a href="https://www.facebook.com/" target="_blank" title="Facebook"><img src="./assets/images/facebook.png" alt="Tamanna's Facebook profile"></i></a>
-					</li>
-					<li>
-						<a href="https://instagram.com/_rajeevkumar1_" target="_blank" title="Instagram"><img src="./assets/images/instagram.png" alt="Tamanna's Instagram profile"></a>
-                    </li>
-                    <li>
-                        <a href="https://wa.me/917091895623?text=Hi,%20I'd%20like%20to%20discuss%20something%20with%20you" target="_blank" title="Whatsapp"><img src="./assets/images/whatsapp.png" alt="Tamanna's Whatsapp"></a>
-                    </li>
-				</ul>
-                <!-- 917494904526 -->
-		</social>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rajeev Kumar — Software Engineer at CAI Software. Java · Spring Boot · React.js · C# · C++ · AI.">
+    <link rel="shortcut icon" href="./assets/images/mine1.PNG" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de71e220d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
 
-		</header>
-		<main>
-		<section id="about">
-		    <div id="my-image">
-		        <img src="./assets/images/mine2.png" alt="Profile Picture">
-		    </div>
-		    <div id="about-para">
-		        <p style="color: black;">
-			    As a dedicated <span id="text-highlight">Software Developer</span>, I excel in Java, Python, React.js, JavaScript, and Spring Boot.
-			    With expertise in both front-end and back-end development, I ensure seamless integration and performance.
-			    I have contributed to high-performance applications and innovative product, collaborating with cross-functional teams
-			    to deliver full-stack solutions and high-quality scalable code. I continuously engage in professional development to stay updated 
-			    with industry trends. My strong problem-solving skills and solid understanding of data structures and algorithms enable efficient 
-			    and optimized code solutions. 
-		        </p>
-		    </div>
-		</section>
-			
-        <section id="skills">
-            <h1 class="section-heading mb75px">
-                <span><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></span>
-                <span>SKILLS</span>
-            </h1>
-            <div class="skills-display">
-                <!-- Skill Template -->
-                <div class="skill-progress">
-                    <a href="#" aria-label="Java skill progress">
-                        <div class="skill-bar mb-java-orange" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fab fa-java" aria-hidden="true"></i></span>
-                                <span>Java</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="JavaScript skill progress">
-                        <div class="skill-bar mb-cyan" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fab fa-js-square" aria-hidden="true"></i></span>
-                                <span>JavaScript</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="Spring Boot skill progress">
-                        <div class="skill-bar mb-cyan" data-bar-width="60">
-                            <div class="skill-name">
-                                <span><i class="fas fa-leaf" aria-hidden="true"></i></span>
-                                <span>Spring Boot</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="CI/CD skill progress">
-                        <div class="skill-bar mb-orange" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fas fa-tools" aria-hidden="true"></i></span>
-                                <span>CI/CD</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="GitHub skill progress">
-                        <div class="skill-bar mb-css-blue" data-bar-width="80">
-                            <div class="skill-name">
-                                <span><i class="fab fa-github" aria-hidden="true"></i></span>
-                                <span>GitHub</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="MySQL skill progress">
-                        <div class="skill-bar mb-teal" data-bar-width="71">
-                            <div class="skill-name">
-                                <span><i class="fas fa-database" aria-hidden="true"></i></span>
-                                <span>MySQL</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="Microservices skill progress">
-                        <div class="skill-bar mb-mongodb-green" data-bar-width="82">
-                            <div class="skill-name">
-                                <span><i class="fas fa-cubes" aria-hidden="true"></i></span>
-                                <span>Microservices</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="AWS skill progress">
-                        <div class="skill-bar mb-blue" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fab fa-aws" aria-hidden="true"></i></span>
-                                <span>AWS</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="C++ skill progress">
-                        <div class="skill-bar mb-blue" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fas fa-brain" aria-hidden="true"></i></span>
-                                <span>C++</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="MongoDB skill progress">
-                        <div class="skill-bar mb-teal" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fas fa-leaf" aria-hidden="true"></i></span>
-                                <span>MongoDB</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="Kafka skill progress">
-                        <div class="skill-bar mb-mongodb-green" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fas fa-stream" aria-hidden="true"></i></span>
-                                <span>Kafka</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="skill-progress">
-                    <a href="#" aria-label="Python skill progress">
-                        <div class="skill-bar mb-orange" data-bar-width="70">
-                            <div class="skill-name">
-                                <span><i class="fas fa-stream" aria-hidden="true"></i></span>
-                                <span>Python</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section> 
-			
-		<section id="experience">
-		<h1 class="section-heading mb75px">
-		     <span><i class="fas fa-briefcase"></i></span>
-		     <span> Work Experience </span>
-		</h1>
+<!-- ── Preloader ── -->
+<div id="preloader">
+    <div class="pre-inner">
+        <div class="pre-logo">RK</div>
+        <div class="pre-bar"><div class="pre-fill"></div></div>
+        <span class="pre-label">Loading...</span>
+    </div>
+</div>
 
-        <div class="timeline">
+<!-- ── Custom cursor ── -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
 
-                 <div class="timeline-box right ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/images/streamlit.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Data App Developer </h3>
-                        <h4 class="experience-company-name"> Streamlit </h4>
-                        <h5 class="experience-duration m0" style="color: black;"> Sep 2021 - Dec 2025 </h5>
-                        <p class="experience-description text-align-right" style="color: black;"> </p>
-                    </div>
-                </div>
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/images/IndiawaleCoders.png" style="height: 30px;">
-                        </div>
-                        <h3 class="experience-designation m0 m-blue"> Software Developer </h3>
-                        <h4 class="experience-company-name"> Environmental Design Solutions Pvt. Ltd </h4>
-                        <h5 class="experience-duration m0" style="color: black;"> Jul 2023 - Present </h5>
-                        <p class="experience-description text-align-right"></p>
-                    </div>
-                </div>
-		 <div id="timeline-divider">
-                    <div class="timeline-traveller">
-                        <div>
-                            <i class="fas fa-plane"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-				
-			</section>
-			
-			  <section id="education">
+<!-- ── Scroll progress ── -->
+<div id="scroll-bar"></div>
 
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fas fa-graduation-cap"></i>
-                </span>
-                <span> Education </span>
-            </h1>
-            <div class="timeline">
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                         <div class="timeline-logo">
-                            <img src="./assets/images/wtlf.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Class X </h3>
-                        <h4 class="experience-company-name "> Red Rose School (CBSE) </h4>
-                        <h5 class="experience-duration m0" style="color: black;"> 2014 - 2016</h5>
-                        <!-- 			<p class="experience-description text-align-right" style="color: black;"> CGPA of 7.6/10 </p> -->
-                    </div>
-                </div>
-    
-                <div class="timeline-box right ">
-                    <div class="timeline-container">
-                         <div class="timeline-logo">
-                            <img src="./assets/images/wtlf.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Class XII </h3>
-                        <h4 class="experience-company-name "> Red Rose School (CBSE) </h4>
-                        <h5 class="experience-duration m0" style="color: black;"> 2016 - 2018 </h5>
-                        <!-- 			<p class="experience-description text-align-right" style="color: black;"> Secured 79% </p> -->
-                    </div>
-                </div>
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/images/XavierRanchi.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> B.Sc. (Hons.) Statistics </h3>
-                        <h4 class="experience-company-name "> St. Xavier's College, Ranchi </h4>
-                        <h5 class="experience-duration m0" style="color: black;"> 2018 - 2021</h5>
-<!-- 			<p class="experience-description text-align-right" style="color: black;"> Secured 85% </p> -->
-                    </div>
-                </div>
-                
-                <div class="timeline-box right ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/images/nitlogo.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"  style="margin-left: 50px;"> Master's degree in Computer Science </h3>
-                        <h4 class="experience-company-name " style="margin-left: 50px;"> NIT Trichy </h4>
-                        <h5 class="experience-duration m0" style="color: black;"> 2021 - 2023 </h5>
-                       <!--                         <p class="experience-description text-align-right" style="color: black;"> Scored 9.2 CGPA in Class 10 </p> -->
-                    </div>
-                </div>
-                <div id="timeline-divider" style="height: 75%;" >
-                    <div class="timeline-traveller">
-                        <div>
-                            <i class="fas fa-car-side"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- ════════════ HEADER ════════════ -->
+<header id="header">
+    <canvas id="particles"></canvas>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="hero-grid"></div>
 
-			
-			<section id="projects">
-				<h1 class="section-heading mb75px">
-                <span>
-                    <i class="fas fa-th-list"></i>
-                </span>
-                <span> Projects </span>
-            </h1>
-            <div id="portfolio-container">
-				<div class="portfolio-image-container">
-                    <img src="./assets/images/hrms.png">
-                    <div class="portfolio-details">
-                        <a href="https://hrms-lite-backend-ten.vercel.app/" target="_blank">
-                            Human Resource Management System (HRMS): Full Stack Project
-                        </a>
-                    </div>
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/images/autopy.png">
-                    <div class="portfolio-details">
-                        <a href="https://tcap.edsglobal.com" target="_blank">
-                            Developed a Front-End Website - TCAP
-                        </a>
-                    </div>
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJtZvblgJ2RT2fohcsiZ5V3-hhIcSI9n9KdyVMEGBo2FvpHXqoZbO84kjTlesD-q_xzY&usqp=CAU">
-                    <div class="portfolio-details">
-                        <a href="https://equest-utilities-edsglobal.streamlit.app/" target="_blank">
-                            Developed a Automation tool using Python and Deployed using Streamlit framework. 
-                        </a>
-                    </div>
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://i1.wp.com/livecasino.baazi247.com/wp-content/uploads/2023/04/IPL-Predict-and-Win-2023-scaled.jpg?strip=all">
-                    <div class="portfolio-details">
-                        <a href="https://ipl-winning-predictor-rajeev.streamlit.app/" target="_blank">  
-                            IPL Winning Prediction (ML Project)
-                        </a>
-                    </div>
-                </div>
-		<div class="portfolio-image-container">
-                    <img src="assets/images/backend.jpeg">
-                    <div class="portfolio-details">
-                        <a href="#" target="_blank">
-                            Backend E-Commerce Application
-                        </a>
-                    </div>
-                </div>
+    <nav id="navbar">
+        <div class="nav-brand">RK</div>
+        <ul class="nav-links no-list-style">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
             </div>
-            <div id="portfolio-container">
-                <div class="portfolio-image-container">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6dpCujdqtqgOi0cZcP5BZclKH0synFqr7pg&s">
-                    <div class="portfolio-details">
-                        <a href="https://rajk01.github.io/rajeev/" target="_blank">
-                            Rajeev Portfolio
-                        </a>
-                    </div>
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://img.freepik.com/premium-vector/day-night-mode-switch-sun-moon-light-filter-toggle-button-sleeping-mode-turn-off-off-switch-light-dark-buttons-simple-dark-mode-switch-icon_435184-368.jpg?w=2000">
-                    <div class="portfolio-details">
-                        <a href="https://rajk01.github.io/Toggle-DayNight-Mode/" target="_blank">
-                            Toggle DayNight Mode 
-                        </a>
-                    </div>
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://th.bing.com/th?id=OIP.AsqWyv_4-70ABgbYSdXCrQHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2">
-                    <div class="portfolio-details">
-                        <a href="https://heart-disease-6d55.onrender.com/" target="_blank">                    
-                            Heart Desease Predciction (ML)
-                        </a>
-                    </div>
-                </div>
-		<div class="portfolio-image-container">
-                    <img src="https://th.bing.com/th/id/OIP.3P9dEm0oe75l_Iw9ao3ncgHaHa?rs=1&pid=ImgDetMain">
-                    <div class="portfolio-details">
-                        <a href="https://rajk01.github.io/Word-Search-Game/" target="_blank">
-                            Word Search Game
-                        </a>
-                    </div>
-                </div>
-               
-            </div>
-			</section>
-			
-	<section id="contact">
-            <h1 class="section-heading mb50px">
-                <span>
-                    <i class="far fa-address-card"></i>
-                </span>
-                <span> Contact </span>
-            </h1>
-            <div class="col-lg-12">
-                <div id="contact-container">
-                    <div id="my-details-container">
-                        <h3> Rajeev's Portfolio </h3>
-                        <p style="font-size: 16px;"> Thank you for visiting my personal portfolio website. Connect with me over socials.<br><br>
-                            Keep Rising 🚀. </p>
-                    </div>
-                    <div id="contact-form-container">
-                        <form id="contact-form" action="https://formsubmit.co/7b877bb656c4b91586b713ac3316f059" method="POST">
-                            <!-- Disable captcha -->
-                            <input type="hidden" name="_captcha" value="false">
-                            <!-- Redirect after submit -->
-                            <input type="hidden" name="_next" value="https://rajk01.github.io/rajeev/">
-                            <input id="input-name" name="name" type="text" placeholder="Your Name" required>
-                            <input id="input-email" name="email" type="email" required placeholder="Your Email">
-                            <textarea id="input-message" name="message" rows="2" cols="40" placeholder="Message" required></textarea>
-                            <button class="sub-btn" type="submit">SEND MESSAGE</button>
-                        </form>
-                    </div>
-                    <div id="my-details-container">
-                        <h3> Get In touch </h3>
-                        <h3> My Address </h3>
-                        <div class="my-details-info-container">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span><a href="https://www.google.com/maps/place/Delhi/@28.6436846,76.7635751,10z/data=!3m1!4b1!4m6!3m5!1s0x390cfd5b347eb62d:0x37205b715389640!8m2!3d28.7040592!4d77.1024902!16zL20vMDlmMDc?entry=ttu" target="_blank" rel="noopener noreferrer">Delhi, India</a></span>
-                        </div>
-                        <div class="my-details-info-container">
-                            <i class="fas fa-mobile-alt"></i>
-                            <span><a href="tel:+917091895632">+91 7091895623</a></span>
-                        </div>
-                        <div class="my-details-info-container">
-                            <i class="far fa-envelope"></i>
-                            <span><a href="mailto:kumarrajeev66797@gmail.com?Subject=Hello%20again" target="_top">kumarrajeev66797@gmail.com</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-    
-            <div class="social-icon text-center">
-				<ul class="no-list-style horizontal-list ">
-					<li>
-						<a href="https://www.linkedin.com/in/rajeev-kumar-nit/" target="_blank" title="Linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
-					</li>
-					<li>
-						<a href="https://twitter.com/01Rajeeb" target="_blank" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
-					</li>
-					<li>
-						<a href="https://github.com/RajK01" target="_blank" title="Github"><i class="fab fa-github fa-2x"></i></a>
-					</li>
-					<li>
-						<a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
-					</li>
-					<li>
-						<a href="https://instagram.com/_rajeevkumar1_" target="_blank" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://wa.me/917091895623?text=Hi,%20I'd%20like%20to%20discuss%20something%20with%20you" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
-                    </li>
-				</ul>
-            </div>
-        
-        </section>
-        <div class="footer">
-            <p>Designed with <span class="heart-icon">&#10084;</span> by <a href="https://rajk01.github.io/rajeev/" style="font-weight: bold; text-decoration: none;" target="_blank">Rajeev Kumar</a></p>
         </div>
-            <button id="topbtn" title="Back To Top"><i class="fas fa-angle-up"></i></button>
-        </main>
-        <script type="text/javascript" src="./assets/js/script.js"></script>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div id="hero-content">
+        <div class="avail-badge"><span class="avail-dot"></span>Available for opportunities</div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 id="my-name">Rajeev <span>Kumar</span></h1>
+        <p class="hero-sub">
+            <span id="typed-text">Software Engineer</span><span class="cursor-blink">|</span>
+        </p>
+        <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India &nbsp;·&nbsp; CAI Software</p>
+        <div class="hero-btns">
+            <a href="#contact" class="btn-primary">Get In Touch</a>
+            <a href="#projects" class="btn-outline">View Projects</a>
+        </div>
+        <div class="hero-social">
+            <a href="https://www.linkedin.com/in/rajeev-kumar-nit/" target="_blank" rel="noopener" title="LinkedIn"><img src="./assets/images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://leetcode.com/u/rajeev01/" target="_blank" rel="noopener" title="LeetCode"><img src="./assets/images/leetcode.jpg" alt="LeetCode"></a>
+            <a href="https://github.com/RajK01" target="_blank" rel="noopener" title="GitHub"><img src="./assets/images/github.png" alt="GitHub"></a>
+            <a href="https://twitter.com/01Rajeeb" target="_blank" rel="noopener" title="Twitter"><img src="./assets/images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com/_rajeevkumar1_" target="_blank" rel="noopener" title="Instagram"><img src="./assets/images/instagram.png" alt="Instagram"></a>
+            <a href="https://wa.me/917091895623" target="_blank" rel="noopener" title="WhatsApp"><img src="./assets/images/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </div>
+    <div class="scroll-hint"><span>Scroll</span><div class="scroll-line"></div></div>
+</header>
+
+<!-- ── Marquee tech strip ── -->
+<div class="marquee-section">
+    <div class="marquee-track">
+        <div class="marquee-inner">
+            <span><i class="fab fa-java"></i> Java</span>
+            <span><i class="fab fa-react"></i> React.js</span>
+            <span><i class="fas fa-leaf"></i> Spring Boot</span>
+            <span><i class="fab fa-python"></i> Python</span>
+            <span><i class="fab fa-microsoft"></i> C# / .NET</span>
+            <span><i class="fas fa-code"></i> C / C++</span>
+            <span><i class="fab fa-aws"></i> AWS</span>
+            <span><i class="fas fa-database"></i> MySQL</span>
+            <span><i class="fas fa-cubes"></i> Microservices</span>
+            <span><i class="fas fa-robot"></i> AI / LLM</span>
+            <span><i class="fas fa-industry"></i> ERP Systems</span>
+            <span><i class="fas fa-stream"></i> Kafka</span>
+            <span><i class="fab fa-github"></i> GitHub</span>
+            <span><i class="fas fa-infinity"></i> CI/CD</span>
+            <!-- duplicate for seamless loop -->
+            <span><i class="fab fa-java"></i> Java</span>
+            <span><i class="fab fa-react"></i> React.js</span>
+            <span><i class="fas fa-leaf"></i> Spring Boot</span>
+            <span><i class="fab fa-python"></i> Python</span>
+            <span><i class="fab fa-microsoft"></i> C# / .NET</span>
+            <span><i class="fas fa-code"></i> C / C++</span>
+            <span><i class="fab fa-aws"></i> AWS</span>
+            <span><i class="fas fa-database"></i> MySQL</span>
+            <span><i class="fas fa-cubes"></i> Microservices</span>
+            <span><i class="fas fa-robot"></i> AI / LLM</span>
+            <span><i class="fas fa-industry"></i> ERP Systems</span>
+            <span><i class="fas fa-stream"></i> Kafka</span>
+            <span><i class="fab fa-github"></i> GitHub</span>
+            <span><i class="fas fa-infinity"></i> CI/CD</span>
+        </div>
+    </div>
+</div>
+
+<main>
+
+<!-- ════════════ ABOUT ════════════ -->
+<section id="about">
+    <div class="about-card fade-in">
+        <div class="about-image-col">
+            <div class="about-img-wrap">
+                <img src="./assets/images/mine2.png" alt="Rajeev Kumar">
+                <div class="img-ring"></div>
+            </div>
+        </div>
+        <div class="about-text-col">
+            <div class="section-label-sm">Who I Am</div>
+            <h2 class="about-heading">Software Engineer &<br>Full-Stack Problem Solver</h2>
+            <p class="about-bio">
+                A passionate <strong>Software Engineer at CAI Software</strong> (since April 2026), I architect and ship high-performance applications across the full stack — Java, Spring Boot, React.js, Python, C#, and C++. From ERP engines to AI-powered pipelines, I thrive on solving real-world engineering challenges and collaborating with cross-functional teams to deliver scalable, production-grade solutions. Backed by an M.Tech from NIT Trichy.
+            </p>
+            <div class="stats-row">
+                <div class="stat-box"><span class="stat-num" data-target="3">0</span><span class="stat-plus">+</span><span class="stat-label">Years Exp.</span></div>
+                <div class="stat-box"><span class="stat-num" data-target="12">0</span><span class="stat-plus">+</span><span class="stat-label">Projects</span></div>
+                <div class="stat-box"><span class="stat-num" data-target="15">0</span><span class="stat-plus">+</span><span class="stat-label">Technologies</span></div>
+                <div class="stat-box"><span class="stat-num" data-target="2">0</span><span class="stat-label">Companies</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="wave-divider wave-down"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" class="wave-fill-bg"/></svg></div>
+
+<!-- ════════════ ACHIEVEMENTS ════════════ -->
+<section id="achievements">
+    <div class="section-head fade-in">
+        <span class="section-label-sm">Milestones</span>
+        <h2 class="section-title">Highlights</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="achievements-grid">
+        <div class="ach-card fade-in ach-blue">
+            <div class="ach-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>M.Tech — NIT Trichy</h3>
+            <p>Master's in Computer Science from one of India's premier technical institutions.</p>
+        </div>
+        <div class="ach-card fade-in ach-purple">
+            <div class="ach-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Software Engineer @ CAI Software</h3>
+            <p>Building enterprise ERP systems and scalable software solutions for global clients.</p>
+        </div>
+        <div class="ach-card fade-in ach-green">
+            <div class="ach-icon"><i class="fas fa-robot"></i></div>
+            <h3>AI & Multi-Agent Systems</h3>
+            <p>Designed autonomous agent pipelines using LangChain, OpenAI, and modern LLM tooling.</p>
+        </div>
+        <div class="ach-card fade-in ach-orange">
+            <div class="ach-icon"><i class="fas fa-layer-group"></i></div>
+            <h3>Full-Stack Expertise</h3>
+            <p>Proficient across 15+ technologies spanning Java, C#, Python, React.js, and cloud platforms.</p>
+        </div>
+    </div>
+</section>
+
+<div class="wave-divider wave-up"><svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,60 C480,0 960,0 1440,60 L1440,0 L0,0 Z" class="wave-fill-bg"/></svg></div>
+
+<!-- ════════════ SKILLS ════════════ -->
+<section id="skills">
+    <div class="section-head fade-in">
+        <span class="section-label-sm">What I Know</span>
+        <h2 class="section-title">Tech Stack</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="tech-grid">
+        <div class="tech-card fade-in"><div class="tech-icon ic-java"><i class="fab fa-java"></i></div><span>Java</span><small>Advanced</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-js"><i class="fab fa-js-square"></i></div><span>JavaScript</span><small>Advanced</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-react"><i class="fab fa-react"></i></div><span>React.js</span><small>Advanced</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-spring"><i class="fas fa-leaf"></i></div><span>Spring Boot</span><small>Advanced</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-python"><i class="fab fa-python"></i></div><span>Python</span><small>Advanced</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-csharp"><i class="fab fa-microsoft"></i></div><span>C# / .NET</span><small>Proficient</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-cpp"><i class="fas fa-code"></i></div><span>C / C++</span><small>Proficient</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-aws"><i class="fab fa-aws"></i></div><span>AWS</span><small>Proficient</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-git"><i class="fab fa-github"></i></div><span>Git / GitHub</span><small>Expert</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-db"><i class="fas fa-database"></i></div><span>MySQL</span><small>Advanced</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-mongo"><i class="fas fa-leaf"></i></div><span>MongoDB</span><small>Proficient</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-micro"><i class="fas fa-cubes"></i></div><span>Microservices</span><small>Advanced</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-kafka"><i class="fas fa-stream"></i></div><span>Kafka</span><small>Proficient</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-cicd"><i class="fas fa-infinity"></i></div><span>CI / CD</span><small>Proficient</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-erp"><i class="fas fa-industry"></i></div><span>ERP Systems</span><small>Proficient</small></div>
+        <div class="tech-card fade-in"><div class="tech-icon ic-ai"><i class="fas fa-robot"></i></div><span>AI / LLM</span><small>Intermediate</small></div>
+    </div>
+</section>
+
+<!-- ════════════ EXPERIENCE ════════════ -->
+<section id="experience">
+    <div class="section-head fade-in">
+        <span class="section-label-sm">Where I've Worked</span>
+        <h2 class="section-title">Work Experience</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+        <div class="tl-item tl-right fade-in">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+                <div class="tl-logo"><span class="logo-text">CAI</span></div>
+                <div class="tl-info">
+                    <h3>Software Engineer</h3>
+                    <h4>CAI Software</h4>
+                    <p class="tl-date"><i class="fas fa-calendar-alt"></i> Apr 2026 – Present</p>
+                    <span class="badge-current">Current</span>
+                </div>
+            </div>
+        </div>
+        <div class="tl-item tl-left fade-in">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+                <div class="tl-logo"><img src="./assets/images/IndiawaleCoders.png" alt="EDS" loading="lazy"></div>
+                <div class="tl-info">
+                    <h3>Software Developer</h3>
+                    <h4>Environmental Design Solutions Pvt. Ltd</h4>
+                    <p class="tl-date"><i class="fas fa-calendar-alt"></i> Jul 2023 – Dec 2025</p>
+                </div>
+            </div>
+        </div>
+        <div class="tl-line"><div class="tl-traveller"><i class="fas fa-plane"></i></div></div>
+    </div>
+</section>
+
+<!-- ════════════ EDUCATION ════════════ -->
+<section id="education">
+    <div class="section-head fade-in">
+        <span class="section-label-sm">Academic Journey</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+        <div class="tl-item tl-right fade-in">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+                <div class="tl-logo"><img src="./assets/images/wtlf.png" alt="School" loading="lazy"></div>
+                <div class="tl-info"><h3>Class X</h3><h4>Red Rose School (CBSE)</h4><p class="tl-date"><i class="fas fa-calendar-alt"></i> 2014 – 2016</p></div>
+            </div>
+        </div>
+        <div class="tl-item tl-left fade-in">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+                <div class="tl-logo"><img src="./assets/images/wtlf.png" alt="School" loading="lazy"></div>
+                <div class="tl-info"><h3>Class XII</h3><h4>Red Rose School (CBSE)</h4><p class="tl-date"><i class="fas fa-calendar-alt"></i> 2016 – 2018</p></div>
+            </div>
+        </div>
+        <div class="tl-item tl-right fade-in">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+                <div class="tl-logo"><img src="./assets/images/XavierRanchi.png" alt="Xavier's" loading="lazy"></div>
+                <div class="tl-info"><h3>B.Sc. (Hons.) Statistics</h3><h4>St. Xavier's College, Ranchi</h4><p class="tl-date"><i class="fas fa-calendar-alt"></i> 2018 – 2021</p></div>
+            </div>
+        </div>
+        <div class="tl-item tl-left fade-in">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+                <div class="tl-logo"><img src="./assets/images/nitlogo.png" alt="NIT Trichy" loading="lazy"></div>
+                <div class="tl-info"><h3>M.Tech — Computer Science</h3><h4>NIT Trichy</h4><p class="tl-date"><i class="fas fa-calendar-alt"></i> 2021 – 2023</p></div>
+            </div>
+        </div>
+        <div class="tl-line" style="height:82%;"><div class="tl-traveller"><i class="fas fa-car-side"></i></div></div>
+    </div>
+</section>
+
+<!-- ════════════ PROJECTS ════════════ -->
+<section id="projects">
+    <div class="section-head fade-in">
+        <span class="section-label-sm">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="filter-bar fade-in">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai"><i class="fas fa-robot"></i> AI / ML</button>
+        <button class="filter-btn" data-filter="java"><i class="fab fa-java"></i> Java</button>
+        <button class="filter-btn" data-filter="cpp"><i class="fas fa-code"></i> C / C++</button>
+        <button class="filter-btn" data-filter="csharp"><i class="fab fa-microsoft"></i> C# / .NET</button>
+        <button class="filter-btn" data-filter="web"><i class="fab fa-react"></i> Web</button>
+    </div>
+    <div class="proj-grid">
+
+        <div class="proj-card fade-in" data-category="ai">
+            <div class="proj-top bg-purple"><i class="fas fa-robot"></i><span class="proj-tag-top">AI · LangChain · Python</span></div>
+            <div class="proj-body">
+                <h3>AI Multi-Agent Orchestration</h3>
+                <p>Autonomous agent pipeline using LangChain & OpenAI for task decomposition, tool use, and multi-step reasoning.</p>
+                <div class="proj-links"><a href="#" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="ai">
+            <div class="proj-top bg-red"><i class="fas fa-heartbeat"></i><span class="proj-tag-top">ML · Scikit-learn · Python</span></div>
+            <div class="proj-body">
+                <h3>Heart Disease Prediction</h3>
+                <p>ML classifier predicting cardiovascular risk from patient vitals with 92% accuracy using ensemble methods.</p>
+                <div class="proj-links"><a href="https://heart-disease-6d55.onrender.com/" target="_blank" rel="noopener" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="ai">
+            <div class="proj-top bg-orange"><i class="fas fa-cricket"></i><span class="proj-tag-top">ML · Python · Streamlit</span></div>
+            <div class="proj-body">
+                <h3>IPL Winning Prediction</h3>
+                <p>Interactive ML app predicting IPL match outcomes using logistic regression on historical tournament data.</p>
+                <div class="proj-links"><a href="https://ipl-winning-predictor-rajeev.streamlit.app/" target="_blank" rel="noopener" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="cpp">
+            <div class="proj-top bg-blue-dark"><i class="fas fa-memory"></i><span class="proj-tag-top">C · C++ · Systems</span></div>
+            <div class="proj-body">
+                <h3>Minotaur Core — ERP Engine</h3>
+                <p>Low-level business logic engine in C/C++ powering CAI Software's MBS ERP — finance, inventory & payroll modules.</p>
+                <div class="proj-links"><a href="#" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="cpp">
+            <div class="proj-top bg-teal"><i class="fas fa-project-diagram"></i><span class="proj-tag-top">C++ · DSA · Algorithms</span></div>
+            <div class="proj-body">
+                <h3>Graph Algorithms Library</h3>
+                <p>High-performance C++ library implementing Dijkstra, A*, Bellman-Ford, and MST algorithms with benchmarks.</p>
+                <div class="proj-links"><a href="#" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="csharp">
+            <div class="proj-top bg-violet"><i class="fas fa-industry"></i><span class="proj-tag-top">C# · .NET · ERP</span></div>
+            <div class="proj-body">
+                <h3>ERP Inventory Module</h3>
+                <p>Full-featured inventory management in C# .NET with real-time stock tracking, purchase orders & dashboards.</p>
+                <div class="proj-links"><a href="#" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="csharp">
+            <div class="proj-top bg-indigo"><i class="fas fa-users-cog"></i><span class="proj-tag-top">C# · .NET · React.js</span></div>
+            <div class="proj-body">
+                <h3>HR Management System</h3>
+                <p>Full-stack HRMS with employee onboarding, leave management & payroll — React frontend + .NET backend.</p>
+                <div class="proj-links"><a href="https://hrms-lite-backend-ten.vercel.app/" target="_blank" rel="noopener" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="java">
+            <div class="proj-top bg-java"><i class="fas fa-shopping-cart"></i><span class="proj-tag-top">Java · Spring Boot · MySQL</span></div>
+            <div class="proj-body">
+                <h3>E-Commerce Backend</h3>
+                <p>RESTful microservices e-commerce backend with JWT auth, product catalog, order management & payment integration.</p>
+                <div class="proj-links"><a href="#" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="web">
+            <div class="proj-top bg-primary"><i class="fas fa-globe"></i><span class="proj-tag-top">React.js · HTML · CSS</span></div>
+            <div class="proj-body">
+                <h3>TCAP Frontend Website</h3>
+                <p>Responsive corporate website for Environmental Design Solutions, built with React.js and modern CSS.</p>
+                <div class="proj-links"><a href="https://tcap.edsglobal.com" target="_blank" rel="noopener" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="web">
+            <div class="proj-top bg-green"><i class="fas fa-moon"></i><span class="proj-tag-top">JavaScript · CSS</span></div>
+            <div class="proj-body">
+                <h3>Toggle Day / Night Mode</h3>
+                <p>Animated dark/light mode toggle with CSS transitions and localStorage persistence.</p>
+                <div class="proj-links"><a href="https://rajk01.github.io/Toggle-DayNight-Mode/" target="_blank" rel="noopener" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="web">
+            <div class="proj-top bg-rose"><i class="fas fa-search"></i><span class="proj-tag-top">JavaScript · DOM</span></div>
+            <div class="proj-body">
+                <h3>Word Search Game</h3>
+                <p>Interactive browser word-search puzzle with dynamic grid generation, timer, and score tracking.</p>
+                <div class="proj-links"><a href="https://rajk01.github.io/Word-Search-Game/" target="_blank" rel="noopener" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+        <div class="proj-card fade-in" data-category="java">
+            <div class="proj-top bg-amber"><i class="fas fa-cogs"></i><span class="proj-tag-top">Python · Automation</span></div>
+            <div class="proj-body">
+                <h3>Python Automation Tool</h3>
+                <p>Workflow automation tool reducing manual data-entry overhead by automating report generation for EDS Global.</p>
+                <div class="proj-links"><a href="#" class="proj-btn">Live <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/RajK01" target="_blank" rel="noopener" class="proj-btn proj-btn-ghost">GitHub <i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ════════════ CONTACT ════════════ -->
+<section id="contact">
+    <div class="section-head fade-in">
+        <span class="section-label-sm" style="color:rgba(255,255,255,.5)">Get In Touch</span>
+        <h2 class="section-title" style="color:#fff">Contact Me</h2>
+        <div class="section-line" style="background:linear-gradient(90deg,rgba(255,255,255,.65),rgba(255,255,255,.15))"></div>
+    </div>
+    <div class="contact-grid">
+        <div class="contact-info fade-in">
+            <h3>Let's build something<br><span>amazing together</span></h3>
+            <p>Open to exciting opportunities, collaborations, and tech conversations. Drop a message — I'll get back soon!</p>
+            <div class="contact-details">
+                <div class="cdetail"><div class="cdetail-icon"><i class="fas fa-map-marker-alt"></i></div><div><strong>Location</strong><span>Bengaluru, Karnataka, India</span></div></div>
+                <div class="cdetail"><div class="cdetail-icon"><i class="fas fa-mobile-alt"></i></div><div><strong>Phone</strong><a href="tel:+917091895623">+91 7091895623</a></div></div>
+                <div class="cdetail"><div class="cdetail-icon"><i class="far fa-envelope"></i></div><div><strong>Email</strong><a href="mailto:kumarrajeev66797@gmail.com">kumarrajeev66797@gmail.com</a></div></div>
+            </div>
+            <div class="contact-socials">
+                <a href="https://www.linkedin.com/in/rajeev-kumar-nit/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/RajK01" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/01Rajeeb" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/_rajeevkumar1_" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/917091895623" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="contact-form-wrap fade-in">
+            <form id="contact-form" action="https://formsubmit.co/7b877bb656c4b91586b713ac3316f059" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New message from Rajeev's Portfolio">
+                <input type="hidden" name="_autoresponse" value="Hi! Thanks for reaching out. I'll get back to you soon. — Rajeev Kumar">
+                <input type="hidden" name="_next" value="https://rajk01.github.io/rajeev/">
+                <div class="form-row">
+                    <div class="form-group"><label>Your Name</label><input name="name" type="text" placeholder="John Doe" required></div>
+                    <div class="form-group"><label>Your Email</label><input name="email" type="email" placeholder="john@email.com" required></div>
+                </div>
+                <div class="form-group"><label>Subject</label><input name="subject" type="text" placeholder="Project Inquiry / Job Opportunity"></div>
+                <div class="form-group"><label>Message</label><textarea name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea></div>
+                <button type="submit" class="form-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Designed & Developed with <span class="heart">&#10084;</span> by
+        <a href="https://rajk01.github.io/rajeev/" target="_blank" rel="noopener">Rajeev Kumar</a>
+        &nbsp;·&nbsp; <span id="year"></span>
+    </p>
+</footer>
+
+<button id="topbtn" title="Back To Top"><i class="fas fa-chevron-up"></i></button>
+</main>
+
+<script src="./assets/js/script.js"></script>
+<script>
+/* ── Year ── */
+document.getElementById('year').textContent = new Date().getFullYear();
+
+/* ── Preloader ── */
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        const pre = document.getElementById('preloader');
+        pre.style.opacity = '0';
+        pre.style.visibility = 'hidden';
+        setTimeout(() => pre.remove(), 600);
+    }, 1200);
+});
+
+/* ── Dark mode ── */
+const root = document.documentElement;
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
+const savedTheme = localStorage.getItem('theme') || 'light';
+root.setAttribute('data-theme', savedTheme);
+themeIcon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+themeToggle.addEventListener('click', () => {
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    const next = isDark ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    themeIcon.className = next === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+});
+
+/* ── Custom cursor (desktop only) ── */
+if (window.matchMedia('(pointer: fine)').matches) {
+    const dot = document.getElementById('cursorDot');
+    const ring = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.cssText = `left:${mx}px;top:${my}px`; });
+    document.querySelectorAll('a,button,.proj-card,.tech-card').forEach(el => {
+        el.addEventListener('mouseenter', () => ring.classList.add('ring-hover'));
+        el.addEventListener('mouseleave', () => ring.classList.remove('ring-hover'));
+    });
+    (function animRing() {
+        rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12;
+        ring.style.cssText = `left:${rx}px;top:${ry}px`;
+        requestAnimationFrame(animRing);
+    })();
+} else {
+    document.getElementById('cursorDot').style.display = 'none';
+    document.getElementById('cursorRing').style.display = 'none';
+}
+
+/* ── Particle canvas ── */
+(function() {
+    const canvas = document.getElementById('particles');
+    const ctx = canvas.getContext('2d');
+    function resize() { canvas.width = innerWidth; canvas.height = innerHeight; }
+    resize();
+    window.addEventListener('resize', resize);
+    const N = 70;
+    const pts = Array.from({length: N}, () => ({
+        x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+        vx: (Math.random()-.5)*.35, vy: (Math.random()-.5)*.35,
+        r: Math.random()*1.5+.5, a: Math.random()*.5+.15
+    }));
+    function draw() {
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+        pts.forEach(p => {
+            ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+            ctx.fillStyle = `rgba(130,180,255,${p.a})`; ctx.fill();
+            p.x += p.vx; p.y += p.vy;
+            if (p.x<0||p.x>canvas.width) p.vx*=-1;
+            if (p.y<0||p.y>canvas.height) p.vy*=-1;
+        });
+        for (let i=0;i<N;i++) for (let j=i+1;j<N;j++) {
+            const d = Math.hypot(pts[i].x-pts[j].x, pts[i].y-pts[j].y);
+            if (d < 130) {
+                ctx.beginPath(); ctx.moveTo(pts[i].x,pts[i].y); ctx.lineTo(pts[j].x,pts[j].y);
+                ctx.strokeStyle = `rgba(100,160,255,${.18*(1-d/130)})`; ctx.lineWidth=.6; ctx.stroke();
+            }
+        }
+        requestAnimationFrame(draw);
+    }
+    draw();
+})();
+
+/* ── Typewriter ── */
+const words = ['Software Engineer','Full-Stack Developer','Java Backend Expert','Spring Boot Engineer','React.js Developer','C# / .NET Developer','AI Solutions Builder','C / C++ Engineer'];
+let wi=0,ci=0,del=false;
+const tEl = document.getElementById('typed-text');
+(function type() {
+    const w=words[wi];
+    tEl.textContent = del ? w.slice(0,--ci) : w.slice(0,++ci);
+    if (!del && ci===w.length) { del=true; setTimeout(type,2000); return; }
+    if (del && ci===0) { del=false; wi=(wi+1)%words.length; setTimeout(type,350); return; }
+    setTimeout(type, del?38:72);
+})();
+
+/* ── Scroll progress ── */
+window.addEventListener('scroll', () => {
+    const d=document.documentElement;
+    document.getElementById('scroll-bar').style.width = (d.scrollTop/(d.scrollHeight-d.clientHeight)*100)+'%';
+});
+
+/* ── Navbar ── */
+const nav = document.getElementById('navbar');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY>80));
+
+/* ── Hamburger ── */
+const hb=document.getElementById('hamburger'), mn=document.getElementById('mobileNav');
+hb.addEventListener('click', () => { hb.classList.toggle('open'); mn.classList.toggle('open'); });
+mn.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { hb.classList.remove('open'); mn.classList.remove('open'); }));
+
+/* ── Back-to-top ── */
+const tb = document.getElementById('topbtn');
+window.addEventListener('scroll', () => tb.style.display = scrollY>500?'flex':'none');
+tb.addEventListener('click', () => scrollTo({top:0,behavior:'smooth'}));
+
+/* ── Fade-in observer ── */
+const obs = new IntersectionObserver((entries, o) => {
+    entries.forEach((e,i) => { if(e.isIntersecting) { setTimeout(()=>e.target.classList.add('visible'),i*65); o.unobserve(e.target); } });
+}, {threshold:.1});
+document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+
+/* ── Count-up ── */
+const countObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        const el=e.target, t=+el.dataset.target, step=1400/t;
+        let n=0; const iv=setInterval(()=>{ el.textContent=++n; if(n>=t) clearInterval(iv); }, step);
+        countObs.unobserve(el);
+    });
+},{threshold:.6});
+document.querySelectorAll('.stat-num').forEach(el => countObs.observe(el));
+
+/* ── Project filter ── */
+document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+        const f=btn.dataset.filter;
+        document.querySelectorAll('.proj-card').forEach(c => {
+            const show = f==='all' || c.dataset.category===f;
+            c.style.display = show?'':'none';
+        });
+    });
+});
+</script>
 </body>
 </html>
-
-
-
-
-
